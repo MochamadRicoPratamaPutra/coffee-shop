@@ -44,6 +44,13 @@ NEXT_PUBLIC_WEB_URL = "http://localhost:3000/"
 
 5. Type `npm run dev`
 
+## Related Project
+
+- Backend
+```
+https://github.com/MochamadRicoPratamaPutra/backend-CoffeeShop
+```
+
 ## Acknowledgements
 
 - [Axios](https://www.npmjs.com/package/axios)
