@@ -58,10 +58,9 @@ function ProfileUser({ tokenAccess }) {
     dispatch({ type: 'CHANGE_VALUE', payload: { [e.target.name]: e.target.files[0] } });
   };
   const handleLogout = () => {
+    console.log("handle logout")
     backendApi
-      .get("logout", data, {
-        withCredentials: true,
-      })
+      .get("logout")
       .then((res) => {
         dispatch({ type: "LOGOUT" });
         swal("Success", "you're logged out ! see ya", "success");
@@ -116,7 +115,7 @@ function ProfileUser({ tokenAccess }) {
                       <Button className="btn cancel" type="button" color="shine">
                         Cancel
                       </Button>
-                      <Button onClick={handleLogout} className="btn log-out" type="button" color="white-choco">
+                      <Button onClick={() => handleLogout()} className="btn log-out" type="button" color="white-choco">
                         Log Out
                       </Button>
                     </div>
