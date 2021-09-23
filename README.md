@@ -66,6 +66,10 @@ NEXT_PUBLIC_WEB_URL = "http://localhost:3000/"
 - [Next](https://nextjs.org/)
 - [React Bootstrap](https://react-bootstrap.github.io/)
 
+## Related Project
+* [`Frontend-coffeshop`](https://github.com/muchamadagush/coffee-shop)
+* [`Backend-coffeshop`](https://github.com/muchamadagush/backend-CoffeeShop)
+
 ## Team
 
 > All Members of Default Team
