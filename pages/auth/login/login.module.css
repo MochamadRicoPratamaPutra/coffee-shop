@@ -5,7 +5,9 @@
 .left {
   width: 50%;
   min-height: 100vh;
-  background-image: url("/register.svg");
+  background-image: url('/register.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .bgRegister {
